@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mable</title>
+  </head>
+  <body>
+    <button class="cta-button" onclick="openPopup()">Click Me</button>
+
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <div class="popup" id="popup">
+      <button class="close-btn" onclick="closePopup()">×</button>
+
+      <div class="popup-container">
+        <div class="popup-image">
+          <img
+            src="https://optiabtests.s3.eu-west-2.amazonaws.com/Training+assignments/MabPopUp.jpg"
+            alt="User Image"
+          />
+        </div>
+
+        <div class="popup-text">
+          <h2>
+            Join Mable for <span class="highlight">FREE</span> to view <br />
+            support workers' profiles
+          </h2>
+
+          <div class="benefits-container">
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img
+                  src="https://optiabtests.s3.eu-west-2.amazonaws.com/Training+assignments/checkIcon.svg"
+                  alt="Check Icon"
+                />
+              </div>
+              <div class="benefit-content">
+                <span class="benefit-text-heading">Peace of mind</span>
+                <p>
+                  Each independent support worker has been <br />
+                  verified with both police checks and references.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img
+                  src="https://optiabtests.s3.eu-west-2.amazonaws.com/Training+assignments/checkIcon.svg"
+                  alt="Check Icon"
+                />
+              </div>
+              <div class="benefit-content">
+                <span class="benefit-text-heading">Better value support</span>
+                <p>
+                  Because we're online, our costs are lower. We pass <br />the
+                  savings onto you!
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img
+                  src="https://optiabtests.s3.eu-west-2.amazonaws.com/Training+assignments/checkIcon.svg"
+                  alt="Check Icon"
+                />
+              </div>
+              <div class="benefit-content">
+                <span class="benefit-text-heading">Freedom of choice</span>
+                <p>
+                  Enjoy the freedom and flexibility that comes with <br />having
+                  a direct relationship with your support <br />
+                  team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="button">
+            <button class="cta-popup">Let's get started</button>
+          </div>
+          <p class="login-text">
+            Already have an account?
+            <a href="https://www.google.com">Login here</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
